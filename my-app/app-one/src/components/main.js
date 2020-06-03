@@ -1,5 +1,5 @@
 import React from 'react'
-import MyInfo from './myInfo'
+import MyInfo from './myInfo.js'
 
 function MainContent() {
     return <MyInfo />;
