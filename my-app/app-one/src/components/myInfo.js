@@ -1,10 +1,11 @@
-import React from 'react';
-
+import React from "react";
+import Wish from "./wish.js";
 
 function MyInfo() {
   return (
     <main>
-      <h1 style={{color:'#999'}}>Abhinav Upadhyay</h1>
+      <Wish />
+      <h1 style={{ color: "#999" }}>Abhinav Upadhyay here</h1>
       <p>You can't afford hearing about me.</p>
       <ul>
         <li>London</li>

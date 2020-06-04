@@ -1,19 +1,24 @@
 import React from "react";
+import ToDoItem from "./ToDoItem";
+
+const styles = {
+  backgroundColor: "white",
+  margin: "auto",
+  width: "50%",
+  display: "flex",
+  flexDirection: "column",
+  alignItem: "center",
+  border: "1px solid #efefef",
+  padding: "30px",
+};
 
 function App() {
   return (
-    <div>
-      <input type="checkbox" />
-      <p>placeholder text here.</p>
-
-      <input type="checkbox" />
-      <p>placeholder text here.</p>
-
-      <input type="checkbox" />
-      <p>placeholder text here.</p>
-
-      <input type="checkbox" />
-      <p>placeholder text here.</p>
+    <div style={styles}>
+      <ToDoItem />
+      <ToDoItem />
+      <ToDoItem />
+      <ToDoItem />
     </div>
   );
 }
